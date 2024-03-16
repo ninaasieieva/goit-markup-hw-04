@@ -137,31 +137,36 @@ width: 100%;
 .address-link:focus { color: #404BBF;}
 
 .hero { box-sizing: content-box;
-    background: #2E2F42;
+    background: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
-    background-image: linear-gradient( rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(/images/people-office.png);
-    max-width: 1440px;
+    background-image: url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    background-image: linear-gradient(
+      to bottom, 
+      rgba(46, 47, 66, 0.7), 
+      rgba(46, 47, 66, 0.7)
+    ),
+      url(../images/people-office.jpg);
+    max-width: 1440px;
+    margin: auto;
+   
 
 }
 
-.hero-wrap { 
-      
-}
+
 .hero-title {
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-max-width: 496px;
-margin: 0 auto 48px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height:  1.07;
+  letter-spacing: 0.02em;
+  color: #fff;
+  max-width: 496px; 
+  margin: 0 auto;
+  padding-bottom: 48px;  
     }
 
    /* .sec-hero{
