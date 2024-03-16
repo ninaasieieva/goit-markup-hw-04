@@ -531,7 +531,6 @@ padding: 100px 0;}
             display: flex;
             align-items: center;
             justify-content: center;
-            fill: white;
             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
           }
           
@@ -542,6 +541,7 @@ padding: 100px 0;}
           .icon-sss-footer:focus {
             background-color: #31d0aa;
           }
+          .icon{ fill: white;}
           
           .studio-footer {
             color: #f4f4fd;
